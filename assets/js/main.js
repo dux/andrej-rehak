@@ -100,7 +100,7 @@
     'science.p1': 'Alongside his work in art and film, since 2005 Rehak has been developing the Universal Principle - his own mathematical model of space and time, summed up in the relation <span class="mono">g = cd</span> that links gravity and the speed of light.',
     'science.p2': 'He publishes his papers in alternative science archives (viXra, Academia.edu) and is a reviewer for the journals <em>Journal of Physics Communications</em> and <em>Classical and Quantum Gravity</em>. He has presented the results at the Science Festival in Zagreb, alongside a screening of the film <em>Acceleration</em>.',
     'science.papers': 'Selected papers',
-    'science.note': '18 papers · viXra / Academia.edu',
+    'science.note': '10 papers on viXra · 18 on Academia.edu',
 
     'contact.label': 'Contact and credits',
     'contact.title': 'Andrej Rehak',
@@ -165,11 +165,7 @@
   function initLang() {
     var saved = null;
     try { saved = localStorage.getItem('rehak-lang'); } catch (e) {}
-    var initial = saved || (function () {
-      var nav = (navigator.language || 'hr').toLowerCase();
-      return nav.indexOf('hr') === 0 ? 'hr' : 'hr';
-    })();
-    applyLang(initial);
+    applyLang(saved || 'hr');
 
     document.querySelectorAll('[data-set-lang]').forEach(function (b) {
       b.addEventListener('click', function () {
@@ -288,8 +284,15 @@
     });
 
     chips.forEach(function (chip) {
+      var setPressed = function () {
+        chips.forEach(function (c) {
+          c.setAttribute('aria-pressed', c.classList.contains('is-active') ? 'true' : 'false');
+        });
+      };
+      setPressed();
       chip.addEventListener('click', function () {
         chips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        setPressed();
         var f = chip.getAttribute('data-filter');
         figures.forEach(function (fig) {
           var y = parseInt(fig.getAttribute('data-year'), 10);
