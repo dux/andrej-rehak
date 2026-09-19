@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>
+        Animafest
+      </title>
+      <meta content="Animafest" property="og:title"/>
+    <link rel="canonical" href="https://www.animafest.hr/hr/404" />
+    <meta content="Svjetski festivala animiranog filma - Animafest Zagreb. Od svog osnutka 1972. godine mjesto je inspiracije, kreativnosti, razmjene ideja, inovativnosti, komunikacije, raznolikosti i internacionalne raznolikosti." name="Description"/>
+    <meta content="https://www.animafest.hr/assets/og_image-391eb93bc3b7e2dc9793ec02692e501af139ab0940a7f5dca1a498d83269dc65.png" property="og:image"/>
+    <meta content="Svjetski festivala animiranog filma - Animafest Zagreb. Od svog osnutka 1972. godine mjesto je inspiracije, kreativnosti, razmjene ideja, inovativnosti, komunikacije, raznolikosti i internacionalne raznolikosti." property="og:description"/>
+    <meta content="https://www.animafest.hr/uploads/authors/images/000/001/772/original/andrej_rehak.jpg" property="og:url"/>
+    <meta content="Animafest" property="og:site_name"/>
+    <meta content="website" property="og:type"/>
+    <meta content="max-image-preview:large" name="robots"/>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="trdZ7SJacPq2MGTLcGpEpPKDKY59GxPNL1aNyfmWgXfoIH_zcSjscrX3NHXEBbhLOaUp9XLk8SgRNsbQ5z2X-Q" />
+    <meta name="csp-nonce" />
+    <link rel="stylesheet" href="/assets/application-8c9be08e10ee1df2dd32a32b68e409773992289cb4fde95b11fc5efa316434d5.css" media="all" />
+    <script src="/assets/application-8e3179b322fd7b402a97d11a93eb826d741e838f73c6270f6dfe52660dbc0eb9.js" type="module"></script>
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '');
+      </script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="header-container">
+        <a class="animafest-logo" href="/hr">
+          <img class="animafest-logo-symbol" alt="znak animafest zagreb" src="/assets/animafest_web-header_hr-a8b9b95fa8023ca5cd3c5a9f28e3aedd4f78501d5c27270754e90a75f2d26b76.svg" />
+</a>        <div class="header-group hidden-sm">
+          <a target="_blank" class="btn" href="/Animafest-Zagreb-2026_Program-Book.pdf">PROGRAMSKA KNJIŽICA</a>
+          <div>
+            <p class="lang-switch"><a class="is-active" href="/hr">HR</a> | <a class="" href="/en">EN</a></p>
+            <button class="btn icon search"></button>
+          </div>
+        </div>
+      </div>
+      <button class="hamburger hamburger--spin" type="button" aria-label="meni">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav id="nav">
+        <ul class="menu">
+          <li class="menu-item has-submenu">
+            <button>Program</button>
+            <ul class="sub-menu">
+              <li><a href="/hr/kategorije">Kategorije</a></li>
+              <li><a href="/hr/filmovi">Filmovi</a></li>
+              <li><a href="/hr/popratna-dogadanja">Popratna događanja</a></li>
+              <li><a href="/hr/raspored">Raspored</a></li>
+            </ul>
+          </li>
+          <li class="menu-item has-submenu">
+            <button>Festival</button>
+            <ul class="sub-menu">
+                <li><a href="/hr/info/o-nama">O nama</a></li>
+                <li><a href="/hr/info/tko-je-tko">Tko je tko</a></li>
+              <li><a href="/hr/ziri">Žiri</a></li>
+              <li><a href="/hr/selekcijske-komisije">Selekcijske komisije</a></li>
+              <li><a href="/hr/sponzori">Sponzori</a></li>
+            </ul>
+          </li>
+          <li class="menu-item has-submenu">
+            <button>Profesionalci</button>
+            <ul class="sub-menu">
+                <li><a href="/hr/profesionalci/animafest-scanner-xiii">Animafest Scanner XIII</a></li>
+                <li><a href="/hr/profesionalci/rise-shine">Rise &amp; Shine</a></li>
+                <li><a href="/hr/profesionalci/afn-edu">AFN Edu</a></li>
+                <li><a href="/hr/profesionalci/masterclasses">Masterclasses</a></li>
+                <li><a href="/hr/profesionalci/predavanja-i-razgovori">Predavanja i razgovori</a></li>
+                <li><a href="/hr/profesionalci/prezentacije-knjiga">Prezentacije knjiga</a></li>
+                <li><a href="/hr/profesionalci/animation-x-gamedev-lab">Animation x Gamedev Lab</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="/hr/galerija">Galerija</a>
+          </li>
+          <li class="menu-item hidden-lg">
+            <a target="_blank" class="btn" href="/Animafest-Zagreb-2026_Program-Book.pdf">PROGRAMSKA KNJIŽICA</a>
+          </li>
+          <li class="lang-switch-container">
+            <p class="lang-switch">HR | <a href="/en">EN</a></p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="search">
+      <form class="container" action="/hr/pretraga/film" accept-charset="UTF-8" method="get">
+        <label for="search_input">Pretraži filmove ili autore</label>
+        <select name="search_type">
+          <option data-url="/hr/pretraga/film" value="movies">Filmovi</option>
+          <option data-url="/hr/pretraga/autor" value="authors">Autori</option>
+        </select>
+        <input type="text" id="search_input" name="q" placeholder="Pretraži ...">
+</form>      <button class="btn icon close"></button>
+    </div>
+    <div class="wide with-background">
+<main class="container page page-error">
+    <div class="page-body">
+      <h1>Greška (404)</h1>
+      <p class="page-lead">Tražena stranica je nestala ili je nikad nije ni bilo. </p>
+      <p class="page-lead">Provjerite jeste li dobro upisali link, ili se vratite na početnu.</p>
+      <a class="btn anim" href="/hr">početna</a>
+      </div>
+  </main>
+</div>
+
+    <footer id="footer">
+      <div class="container footer-container">
+        <div class="col-5">
+          <img class="animafest-logo-vertical" alt="animafest logo" src="/assets/animafest-logo-vertical-83bcabb131f43de33ce1f9ae20a5372175cc7d6dee218628375fe3703f3a5a8a.svg" />
+          <div class="group">
+            <p class="">Svjetski festival animiranog filma<br>
+              8. do 13. lipnja 2026.</p>
+            <ul class="contact-info">
+              <li>c/o: Hulahop</li>
+              <li>10000 Zagreb, Hrvatska</li>
+              <li>E-mail: <a href="mailto: info@animafest.hr">info@animafest.hr</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-3">
+          <ul>
+              <li><a target="_blank" href="/arhiva/hr/2025/home">Arhiva</a></li>
+            <li><a target="_blank" href="Animafest-Scanner-XII-2026.pdf">Animafest Scanner XII</a></li>
+            <li><a href="/hr/info/impressum">Impressum</a></li>
+          </ul>
+          <div class="social-networks">
+            <a href="https://www.facebook.com/AnimafestZagreb" target="_blank"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M32.5 16.2656C32.5 24.251 26.6413 30.871 18.9933 32.0723V20.9216H22.712L23.42 16.3083H18.9933V13.315C18.9933 12.0523 19.612 10.823 21.5933 10.823H23.6053V6.89496C23.6053 6.89496 21.7787 6.58296 20.0333 6.58296C16.388 6.58296 14.0067 8.79229 14.0067 12.791V16.307H9.95467V20.9203H14.0067V32.071C6.36 30.8683 0.5 24.2496 0.5 16.2656C0.5 7.42963 7.664 0.265625 16.5 0.265625C25.336 0.265625 32.5 7.42829 32.5 16.2656Z" fill="#c6eafa"/>
+    </svg></a>
+
+  <a href=" https://instagram.com/animafestzg/" target="_blank"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_648_526)">
+        <path d="M16.5 3.05454C20.772 3.05454 21.2787 3.07054 22.9653 3.14788C24.7093 3.22788 26.5053 3.62521 27.776 4.89587C29.0587 6.17854 29.444 7.95721 29.524 9.70654C29.6013 11.3932 29.6173 11.8999 29.6173 16.1719C29.6173 20.4439 29.6013 20.9505 29.524 22.6372C29.4453 24.3719 29.0387 26.1852 27.776 27.4479C26.4933 28.7305 24.716 29.1159 22.9653 29.1959C21.2787 29.2732 20.772 29.2892 16.5 29.2892C12.228 29.2892 11.7213 29.2732 10.0347 29.1959C8.31333 29.1172 6.476 28.7012 5.224 27.4479C3.948 26.1719 3.556 24.3759 3.476 22.6372C3.39867 20.9505 3.38267 20.4439 3.38267 16.1719C3.38267 11.8999 3.39867 11.3932 3.476 9.70654C3.55467 7.97854 3.96533 6.15454 5.224 4.89587C6.504 3.61588 8.28933 3.22788 10.0347 3.14788C11.7213 3.07054 12.228 3.05454 16.5 3.05454ZM16.5 0.171875C12.1547 0.171875 11.6093 0.190542 9.90267 0.267875C7.42933 0.381208 4.97333 1.06921 3.18533 2.85721C1.39067 4.65188 0.709333 7.10254 0.596 9.57454C0.518667 11.2812 0.5 11.8265 0.5 16.1719C0.5 20.5172 0.518667 21.0625 0.596 22.7692C0.709333 25.2399 1.4 27.7025 3.18533 29.4865C4.97867 31.2799 7.43333 31.9625 9.90267 32.0759C11.6093 32.1532 12.1547 32.1719 16.5 32.1719C20.8453 32.1719 21.3907 32.1532 23.0973 32.0759C25.5693 31.9625 28.028 31.2732 29.8147 29.4865C31.6107 27.6905 32.2907 25.2412 32.404 22.7692C32.4813 21.0625 32.5 20.5172 32.5 16.1719C32.5 11.8265 32.4813 11.2812 32.404 9.57454C32.2907 7.10121 31.6013 4.64388 29.8147 2.85721C28.024 1.06654 25.5627 0.379875 23.0973 0.267875C21.3907 0.190542 20.8453 0.171875 16.5 0.171875Z" fill="#c6eafa"/>
+          <path d="M16.4992 7.95312C11.9619 7.95312 8.2832 11.6318 8.2832 16.1691C8.2832 20.7065 11.9619 24.3851 16.4992 24.3851C21.0365 24.3851 24.7152 20.7065 24.7152 16.1691C24.7152 11.6318 21.0365 7.95312 16.4992 7.95312ZM16.4992 21.5025C13.5539 21.5025 11.1659 19.1145 11.1659 16.1691C11.1659 13.2238 13.5539 10.8358 16.4992 10.8358C19.4445 10.8358 21.8325 13.2238 21.8325 16.1691C21.8325 19.1145 19.4445 21.5025 16.4992 21.5025Z" fill="#c6eafa"/>
+            <path d="M25.0411 9.55094C26.1015 9.55094 26.9611 8.69132 26.9611 7.63094C26.9611 6.57055 26.1015 5.71094 25.0411 5.71094C23.9807 5.71094 23.1211 6.57055 23.1211 7.63094C23.1211 8.69132 23.9807 9.55094 25.0411 9.55094Z" fill="#c6eafa"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_648_526">
+                <rect width="32" height="32" fill="white" transform="translate(0.5 0.171875)"/>
+              </clipPath>
+            </defs>
+          </svg></a>
+
+        <a href="https://vimeo.com/animafestzagreb" target="_blank"><svg width="33" height="29" viewBox="0 0 33 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32.484 6.72112C32.3413 9.84245 30.1653 14.1158 25.9573 19.5398C21.6067 25.2051 17.9253 28.0385 14.9147 28.0385C13.0493 28.0385 11.4707 26.3131 10.1813 22.8624C9.32 19.6998 8.46 16.5371 7.59867 13.3731C6.64133 9.92378 5.61467 8.19712 4.51733 8.19712C4.27733 8.19712 3.44 8.70245 2.00667 9.70778L0.5 7.76512C2.08 6.37445 3.63733 4.98512 5.17067 3.59312C7.27733 1.76912 8.85867 0.810449 9.912 0.713116C12.4027 0.473116 13.936 2.17845 14.5107 5.83045C15.132 9.77045 15.5627 12.2198 15.804 13.1784C16.5213 16.4464 17.312 18.0784 18.1747 18.0784C18.844 18.0784 19.8507 17.0184 21.192 14.8984C22.532 12.7784 23.2493 11.1651 23.3467 10.0571C23.5373 8.22778 22.82 7.31045 21.192 7.31045C20.4253 7.31045 19.636 7.48645 18.824 7.83578C20.396 2.67445 23.4013 0.167783 27.836 0.310449C31.124 0.407783 32.6733 2.54378 32.484 6.72112Z" fill="#c6eafa"/>
+            </svg></a>
+
+          </div>
+        </div>
+        <ul class="col-4">
+          <li><a target="_blank" href="/Animafest-Zagreb-2026_Program-Book.pdf">Programska knjižica</a></li>
+          <li><a target="_blank" href="https://animafestzagreb.myflodesk.com/subscribe">Newsletter</a></li>
+          <li><a target="_blank" href="https://animationfestivalnetwork.eu/">AFN - Animation festival network</a></li>
+          <li><a target="_blank" href="https://www.upi2mbooks.hr/trgovina/umjetnost/monografije/pedeset-godina-animafesta/">Monografija - Pedeset godina Svjetskog festivala animiranog filma – Animafest Zagreb (1972-2022)</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
