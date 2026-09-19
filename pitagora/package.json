@@ -1,0 +1,9 @@
+{
+  "name": "pitagora",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run server.ts",
+    "start": "bun run server.ts"
+  }
+}

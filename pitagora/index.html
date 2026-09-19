@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pitagora</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">
+      <svg viewBox="0 0 32 32" fill="none">
+        <path d="M5 26 L5 6 L27 26 Z" stroke="url(#g)" stroke-width="2.4" stroke-linejoin="round"/>
+        <path d="M5 21 L10 21 L10 26" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs>
+          <linearGradient id="g" x1="5" y1="6" x2="27" y2="26" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#a78bfa"/><stop offset="1" stop-color="#38bdf8"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </span>
+    <div>
+      <h1>Pitagora</h1>
+      <p>Hipotenuza, katete i zbroj triju stranica pravokutnog trokuta</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-tab="hyp" role="tab" aria-selected="true">Hipotenuza</button>
+    <button class="tab" data-tab="sum" role="tab" aria-selected="false">Zbroj stranica</button>
+  </div>
+
+  <section id="panel-hyp" class="panel active">
+    <form class="card input-card" id="form-hyp" autocomplete="off">
+      <label for="input-hyp">Upiši broj
+        <span class="hint">Provjerava je li broj hipotenuza Pitagorine trojke i ispisuje sve katete.</span>
+      </label>
+      <div class="row">
+        <input id="input-hyp" type="number" inputmode="numeric" min="1" step="1" placeholder="npr. 65" value="65">
+        <button type="submit" class="primary">Izračunaj</button>
+      </div>
+      <div class="examples">Primjeri:
+        <button type="button" data-tab="hyp" data-example="5">5</button>
+        <button type="button" data-tab="hyp" data-example="25">25</button>
+        <button type="button" data-tab="hyp" data-example="65">65</button>
+        <button type="button" data-tab="hyp" data-example="1105">1105</button>
+      </div>
+    </form>
+    <div id="result-hyp" class="result" aria-live="polite"></div>
+    <div id="canvaswrap-hyp" class="canvas-wrap" hidden><canvas id="canvas-hyp"></canvas></div>
+  </section>
+
+  <section id="panel-sum" class="panel">
+    <form class="card input-card" id="form-sum" autocomplete="off">
+      <label for="input-sum">Upiši broj
+        <span class="hint">Traži trokute kod kojih je zbroj stranica a + b + c jednak tom broju.</span>
+      </label>
+      <div class="row">
+        <input id="input-sum" type="number" inputmode="numeric" min="1" step="1" placeholder="npr. 60" value="60">
+        <button type="submit" class="primary">Razloži</button>
+      </div>
+      <div class="examples">Primjeri:
+        <button type="button" data-tab="sum" data-example="12">12</button>
+        <button type="button" data-tab="sum" data-example="30">30</button>
+        <button type="button" data-tab="sum" data-example="60">60</button>
+        <button type="button" data-tab="sum" data-example="840">840</button>
+      </div>
+    </form>
+    <div id="result-sum" class="result" aria-live="polite"></div>
+    <div id="canvaswrap-sum" class="canvas-wrap" hidden><canvas id="canvas-sum"></canvas></div>
+  </section>
+</main>
+
+<footer>
+  <span>a&sup2; + b&sup2; = c&sup2;</span>
+  <span class="dot"></span>
+  <span>Euklidova parametrizacija: c = k(m&sup2; + n&sup2;), zbroj = 2k&middot;m&middot;(m+n)</span>
+</footer>
+
+<script src="./pythagoras.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
